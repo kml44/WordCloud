@@ -1,0 +1,60 @@
+body{
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    font-family: Tahoma, Verdana, sans-serif;
+    background-color: #fdfdfd;
+}
+#game {
+    width: 30%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.question{
+    padding: 10px;
+    font-weight: bold;
+}
+
+.words-container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: solid 1px;
+    border-radius: 5px;
+}
+.word {
+    padding: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+}
+.word-wrapper {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    user-select: none;
+    position:relative;
+}
+#playButton, .button {
+    background-color: rgba(255, 255, 255, 0);
+    color: dodgerblue;
+    border: 2px solid dodgerblue;
+    border-radius: 5px;
+
+    padding: 5px 30px;
+    margin: 10px;
+    cursor: pointer;
+
+}
